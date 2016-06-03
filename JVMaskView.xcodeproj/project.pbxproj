@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456440531D024CA00024AA34 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 456440511D024CA00024AA34 /* LICENSE */; };
+		456440541D024CA00024AA34 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 456440521D024CA00024AA34 /* README.md */; };
 		45C25AF41D0232EE00CB931C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C25AF31D0232EE00CB931C /* AppDelegate.swift */; };
 		45C25AF61D0232EE00CB931C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C25AF51D0232EE00CB931C /* ViewController.swift */; };
 		45C25AF91D0232EE00CB931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C25AF71D0232EE00CB931C /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		456440511D024CA00024AA34 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		456440521D024CA00024AA34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		45C25AF01D0232ED00CB931C /* JVMaskView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JVMaskView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C25AF31D0232EE00CB931C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C25AF51D0232EE00CB931C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				45C25AF71D0232EE00CB931C /* Main.storyboard */,
 				45C25AFA1D0232EE00CB931C /* Assets.xcassets */,
 				45C25AFC1D0232EE00CB931C /* LaunchScreen.storyboard */,
+				456440511D024CA00024AA34 /* LICENSE */,
+				456440521D024CA00024AA34 /* README.md */,
 				45C25AFF1D0232EE00CB931C /* Info.plist */,
 			);
 			path = JVMaskView;
@@ -127,6 +133,7 @@
 			files = (
 				45C25AFE1D0232EE00CB931C /* LaunchScreen.storyboard in Resources */,
 				45C25AFB1D0232EE00CB931C /* Assets.xcassets in Resources */,
+				456440531D024CA00024AA34 /* LICENSE in Resources */,
 				45C25AF91D0232EE00CB931C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				45C25AF61D0232EE00CB931C /* ViewController.swift in Sources */,
 				45C25B061D02335D00CB931C /* JVMaskView.swift in Sources */,
+				456440541D024CA00024AA34 /* README.md in Sources */,
 				45C25AF41D0232EE00CB931C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
