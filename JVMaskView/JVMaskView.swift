@@ -32,6 +32,13 @@ class JVMaskView: UIView {
         self.initialize()
     }
     
+    init(maskPath: UIBezierPath?, maskRect: CGRect?) {
+        self.maskPath = maskPath
+        self.maskRect = maskRect
+        super.init(frame: CGRectZero
+        )
+    }
+    
     func initialize() {
         
     }
