@@ -35,7 +35,7 @@ class JVMaskView: UIView {
     init(maskPath: UIBezierPath?, maskRect: CGRect?) {
         self.maskPath = maskPath
         self.maskRect = maskRect
-        super.init(frame: CGRectZero
+        super.init(frame: CGRect.zero
         )
     }
     
@@ -43,28 +43,28 @@ class JVMaskView: UIView {
         
     }
     
-    override func drawRect(rect: CGRect) {
+    override func draw(_ rect: CGRect) {
         // Drawing code
-        super.drawRect(rect)
+        super.draw(rect)
         
         let maskLayer = CAShapeLayer()
         maskLayer.frame = rect
-        maskLayer.fillColor = UIColor.blackColor().CGColor
+        maskLayer.fillColor = UIColor.black.cgColor
         
         var path: UIBezierPath
         
         if let bezierPath = self.maskPath {
             path = bezierPath
-        } else if let maskRect = self.maskRect where maskRect != CGRectZero {
+        } else if let maskRect = self.maskRect, maskRect != CGRect.zero {
             path = UIBezierPath(rect: maskRect)
         } else {
             return
         }
         
         let rectPath = UIBezierPath(rect: rect)
-        path.appendPath(rectPath)
+        path.append(rectPath)
         
-        maskLayer.path = path.CGPath
+        maskLayer.path = path.cgPath
         maskLayer.fillRule = kCAFillRuleEvenOdd
         
         self.layer.mask = maskLayer
