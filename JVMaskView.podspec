@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'JVMaskView allows you to create a view with a hole in it.'
 
-  s.description      = "JVMaskView allows you to create a view with a hole in it."
+  s.description      = "JVMaskView allows you to create a view with a hole in it using either CGRect or an UIBezierPath easyli."
 
   s.homepage         = 'https://github.com/Sali0m/JVMaskView'
   s.screenshots     = 'http://www.saliom.be/githubImg/JVMaskView.gif'
