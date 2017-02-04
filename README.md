@@ -1,17 +1,48 @@
 # JVMaskView
 
+[![CI Status](http://img.shields.io/travis/Sali0m/JVMaskView.svg?style=flat)](https://travis-ci.org/Sali0m/JVMaskView)
+[![Version](https://img.shields.io/cocoapods/v/JVMaskView.svg?style=flat)](http://cocoapods.org/pods/JVMaskView)
+[![License](https://img.shields.io/cocoapods/l/JVMaskView.svg?style=flat)](http://cocoapods.org/pods/JVMaskView)
+[![Platform](https://img.shields.io/cocoapods/p/JVMaskView.svg?style=flat)](http://cocoapods.org/pods/JVMaskView)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+### Cocoapods
+
+JVMaskView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "JVMaskView"
+```
+
+### Manually
+Import the file JVMessage.swift in your project.
+
+## Author
+
+Sali0m, jehan.vossen@tapptic.com
+
+## License
+
+JVMaskView is available under the MIT license. See the LICENSE file for more info.
+
+# JVMaskView
+
 ![example](http://www.saliom.be/githubImg/JVMaskView.gif)
 
 JVMaskView allows you to create a view with a hole in it.
 
-
-## Installation
-
-`CocoaPods` will be coming soon
-
-For now import the file JVMessage.swift in your project.
-
 ## Usage
+
+You can implement the view in code, or you can also set it in interface builder. Currently in interface builder you cannot set the maskRect, it seems to be an xcode bug.
+
 ```
 //JVMaskView(maskPath: UIBezierPath?, maskRect: CGRect?)
 

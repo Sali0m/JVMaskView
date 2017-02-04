@@ -1,0 +1,16 @@
+PODS:
+  - JVMaskView (1.0.0)
+
+DEPENDENCIES:
+  - JVMaskView (from `../`)
+
+EXTERNAL SOURCES:
+  JVMaskView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVMaskView: cec9ddbcf8a41fc531da20db70e17b6a05c080ee
+
+PODFILE CHECKSUM: af245fb5afa4bba47ab1ef379185d4fb49fbfca9
+
+COCOAPODS: 1.1.1

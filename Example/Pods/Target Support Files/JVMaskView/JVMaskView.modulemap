@@ -1,0 +1,6 @@
+framework module JVMaskView {
+  umbrella header "JVMaskView-umbrella.h"
+
+  export *
+  module * { export * }
+}

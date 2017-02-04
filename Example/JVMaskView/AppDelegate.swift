@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  JVMaskView
 //
-//  Created by Jehan Vossen on 03/06/2016.
-//  Copyright © 2016 VossenAndCo. All rights reserved.
+//  Created by Sali0m on 02/04/2017.
+//  Copyright (c) 2017 Sali0m. All rights reserved.
 //
 
 import UIKit

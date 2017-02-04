@@ -9,41 +9,41 @@
 import UIKit
 
 @IBDesignable
-class JVMaskView: UIView {
+public class JVMaskView: UIView {
 
-    var maskPath: UIBezierPath? {
+    public var maskPath: UIBezierPath? {
         didSet {
             self.setNeedsDisplay()
         }
     }
-    @IBInspectable var maskRect: CGRect? {
+    @IBInspectable public var maskRect: CGRect? {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.initialize()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.initialize()
     }
     
-    init(maskPath: UIBezierPath?, maskRect: CGRect?) {
+    public init(maskPath: UIBezierPath?, maskRect: CGRect?) {
         self.maskPath = maskPath
         self.maskRect = maskRect
         super.init(frame: CGRect.zero
         )
     }
     
-    func initialize() {
+    internal func initialize() {
         
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         // Drawing code
         super.draw(rect)
         

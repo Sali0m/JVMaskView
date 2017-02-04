@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JVMaskView_Example' do
+  pod 'JVMaskView', :path => '../'
+
+  target 'JVMaskView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

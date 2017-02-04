@@ -1,0 +1,6 @@
+framework module Pods_JVMaskView_Example {
+  umbrella header "Pods-JVMaskView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
