@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## JVMaskView
 
-Copyright (c) 2017 Sali0m <jehan.vossen@tapptic.com>
+Copyright (c) 2017 Sali0m <jehan.vossen@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

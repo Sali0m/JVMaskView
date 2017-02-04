@@ -27,7 +27,7 @@ Import the file JVMessage.swift in your project.
 
 ## Author
 
-Sali0m, jehan.vossen@tapptic.com
+Sali0m, jehan.vossen@gmail.com
 
 ## License
 
