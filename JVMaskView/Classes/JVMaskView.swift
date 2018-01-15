@@ -16,7 +16,8 @@ public class JVMaskView: UIView {
             self.setNeedsDisplay()
         }
     }
-    @IBInspectable public var maskRect: CGRect? {
+    
+    public var maskRect: CGRect? {
         didSet {
             self.setNeedsDisplay()
         }
