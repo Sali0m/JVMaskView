@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		22311275911762DFA891A6B0FA2A8F8C /* JVMaskView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVMaskView-dummy.m"; sourceTree = "<group>"; };
-		223C9C0DD65D973326BADD56196F5FD4 /* Pods-JVMaskView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JVMaskView_Tests.modulemap"; sourceTree = "<group>"; };
+		223C9C0DD65D973326BADD56196F5FD4 /* Pods-JVMaskView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JVMaskView_Tests.modulemap"; sourceTree = "<group>"; };
 		2426DC9B80CF806DE97C8ECFC0483DE0 /* Pods-JVMaskView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVMaskView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E93C37F437E0E355710DAD89B899772 /* Pods-JVMaskView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMaskView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		32FB4D82EA59049C8681FBE2DB2C8B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,19 +44,19 @@
 		5FF138F3F194919CBE3CF24663F1124D /* Pods-JVMaskView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVMaskView_Example-umbrella.h"; sourceTree = "<group>"; };
 		6BF5AF04BB05F7078A357E26D3F19D62 /* Pods-JVMaskView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMaskView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		70ABD3A58CFFD0DAAD7DF18F79EE2C28 /* Pods-JVMaskView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMaskView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		745DEE6D9AFED46BCA6C7B5DB9127466 /* JVMaskView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVMaskView.framework; path = JVMaskView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		745DEE6D9AFED46BCA6C7B5DB9127466 /* JVMaskView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVMaskView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9BCA93DE27E08E285603194D1B36CD /* Pods-JVMaskView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMaskView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CB1664C5A8C6BCF3F92695AF5B79D2E /* Pods-JVMaskView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVMaskView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8D9ADC7D496E76B56D0F577D02F75B91 /* Pods-JVMaskView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JVMaskView_Example.modulemap"; sourceTree = "<group>"; };
-		8F07C45D1070BB53C57385958738286F /* Pods_JVMaskView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVMaskView_Example.framework; path = "Pods-JVMaskView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9ADC7D496E76B56D0F577D02F75B91 /* Pods-JVMaskView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JVMaskView_Example.modulemap"; sourceTree = "<group>"; };
+		8F07C45D1070BB53C57385958738286F /* Pods_JVMaskView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVMaskView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9078AEFA8E12905F4E04A67C9F8105D1 /* JVMaskView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVMaskView-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D05D820ECCB7E67C74A066516434ED9 /* Pods_JVMaskView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVMaskView_Tests.framework; path = "Pods-JVMaskView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D05D820ECCB7E67C74A066516434ED9 /* Pods_JVMaskView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVMaskView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BCCF9CB104C59B5F8DD61A14C3F1DD /* Pods-JVMaskView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMaskView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE0563C13B0D668FC294C72E7D8D22B6 /* Pods-JVMaskView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMaskView_Example-dummy.m"; sourceTree = "<group>"; };
 		B1597460FD964DE43CC5996ECCBD7936 /* JVMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JVMaskView.swift; sourceTree = "<group>"; };
 		BEABEAFA851BFD14031438F8EC63D794 /* Pods-JVMaskView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMaskView_Tests-dummy.m"; sourceTree = "<group>"; };
-		C58F8D661A04DC0B40D52B3ECAA305D1 /* JVMaskView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JVMaskView.modulemap; sourceTree = "<group>"; };
+		C58F8D661A04DC0B40D52B3ECAA305D1 /* JVMaskView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JVMaskView.modulemap; sourceTree = "<group>"; };
 		C93BCAFC3A7BC208E1C229478DBB5942 /* Pods-JVMaskView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMaskView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E2F4E832266C52101C3235BBE50D1E2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +97,6 @@
 			children = (
 				EE815CDF3AC8B3DBDF3B111F2D0DC938 /* Classes */,
 			);
-			name = JVMaskView;
 			path = JVMaskView;
 			sourceTree = "<group>";
 		};
@@ -210,7 +209,6 @@
 			children = (
 				B1597460FD964DE43CC5996ECCBD7936 /* JVMaskView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					22F5E08C6800193375E90087BF7802D4 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -434,7 +437,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -580,7 +584,8 @@
 				PRODUCT_NAME = JVMaskView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
