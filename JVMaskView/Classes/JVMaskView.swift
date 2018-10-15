@@ -66,7 +66,7 @@ public class JVMaskView: UIView {
         path.append(rectPath)
         
         maskLayer.path = path.cgPath
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         
         self.layer.mask = maskLayer
     }
